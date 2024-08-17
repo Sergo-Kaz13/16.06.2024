@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  height: 100vh;
+  background: rgb(36, 35, 35);
+  color: #fff;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  padding-top: 30px;
+}
+
+._container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 22px;
+  padding: 5px 10px;
+  margin-bottom: 50px;
+}
+
+.table {
+  border-collapse: collapse;
+  /* border: 1px solid #fff; */
+  margin: 0 auto;
+}
+
+.table th,
+.table td {
+  border: 2px solid #fff;
+  padding: 5px 30px;
+  text-align: center;
+}
